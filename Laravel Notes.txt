@@ -1,0 +1,39 @@
+Laravel notes from video https://www.youtube.com/watch?v=H3uRXvwXz1o
+
+Laravel is MVC
+model 
+view 
+controler
+
+
+
+app folder
+		all models go in app folder
+		can create optional model folder if you have a lot
+		user.php is a model
+	Http folder
+
+		Controlers folder
+				all controlers go in here
+				has a core controler that extends base controler
+				use artisan to atuomatically create controler, model, dependencies, ect 
+			auth folder
+					for user authentification
+
+resources folder
+		holds views
+	views folder
+		welcome.blade.php ???
+				blade alows if statements and loops in html
+routs folder
+	 
+
+
+
+
+
+
+
+
+
+

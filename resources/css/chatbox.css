@@ -1,0 +1,68 @@
+/*
+	all heights are completly static. 
+	sum of chat heading, chat history, and chat user message and dividor lines
+	equals chat-main height
+*/
+
+.chat-main {
+	background-color: white;
+	border-color: #080808;
+	max-width: 500px;
+	min-width: 500px;
+	min-height: 600px;
+	max-height: 600px;
+	padding: 0px;
+}
+
+.chat-heading {
+	background-color: #222;
+	height: 100px;
+	padding: 3px;
+}
+
+.chat-history {
+	background-color: white;
+	height: 400px;
+}
+
+.chat-user-message {
+	position: relative;
+	bottom: 0px;
+	box-sizing: content-box;
+	height:100px;
+}
+
+.chat-user-message :focus {
+
+}
+
+.chat-draft-text {
+	background-color: white;
+	width: 450px;
+	height: 50px;
+	padding: 5px;
+	display: inline-block;;
+}
+
+#send-button {
+	width: 50px;
+	height: 50px;
+	float: right;
+}
+
+.chat-user-icon {
+	float:left;
+	margin: 3px 3px 2px 2px ;
+	width: 45px;
+	height: 45px;
+}
+
+.chat-user-message-options {
+	background-color: #eee; 
+	height: 50px;
+}
+
+
+
+
+

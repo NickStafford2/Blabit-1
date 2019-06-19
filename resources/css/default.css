@@ -1,0 +1,42 @@
+@import "header.css";
+@import "chatbox.css";
+@import "footer.css";
+@import "login.css";
+@import "stream-summary.css";
+
+/* Below is all the css that applies to everything on the entire site */
+
+.stream-summary-main {
+	background-color: green;
+}
+
+.chatbox-container {
+	float: right;
+	background-color: #eee;
+	margin: 5px;
+	border: 2px solid black;
+}
+
+.mini-login-container {
+	width: 300px;
+
+}
+
+.divider-line {
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+	height: 1px;
+	padding: 0px 15px;
+	background-color: #222;
+}
+
+.text-light {
+	color: #eee;
+	background-color: transparent;
+}
+
+.display-inline-block {
+	display: inline-block;
+}
